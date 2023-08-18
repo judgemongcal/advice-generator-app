@@ -38,7 +38,7 @@ body{
 }
 
 .container{
-  margin: 20% auto 20% auto;
+  margin: 20% auto 12% auto;
   background-color: var(--dark-grayish-blue);
   display: flex;
   flex-direction: column;
