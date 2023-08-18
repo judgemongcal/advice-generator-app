@@ -5,7 +5,6 @@ const generateBtn = document.querySelector('.dice');
 const getAdvice = async () => {
     const data = await fetch('https://api.adviceslip.com/advice');
     const result = await data.json();
-    console.log(result);
     displayAdvice(result);
 }
 
